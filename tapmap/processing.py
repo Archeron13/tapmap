@@ -15,7 +15,7 @@ from tapmap.char_map import get_all_pixels, get_coords
 dir_path = os.path.dirname(os.path.realpath(__file__))
 
 # Make entire array visible when printing data
-np.set_printoptions(threshold=np.nan)
+
 
 # Open the keyboard image for later use
 keyboard = Image.open(
